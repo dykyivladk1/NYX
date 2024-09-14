@@ -14,7 +14,7 @@
 The NYX model is structured as a deep Transformer neural network with the following primary characteristics:
 
 - **Model Parameters**: 30,020,096 total trainable parameters.
-- **Architecture**: Incorporates 2 Transformer layers, each consisting of multi-head self-attention, feedforward networks, and residual connections.
+- **Architecture**: Incorporates 8 Transformer layers, each consisting of multi-head self-attention, feedforward networks, and residual connections.
 - **Positional Encoding**: Rotary embeddings with XPOS scaling for improved attention mechanism efficiency in sequence modeling.
 - **Low-Rank Fine-Tuning**: Supports LoRA modules to reduce memory footprint and computational overhead during fine-tuning.
 - **Regularization**: Includes dropout layers in both the attention and feedforward components for increased robustness against overfitting.
